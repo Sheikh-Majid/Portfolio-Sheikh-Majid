@@ -1,0 +1,35 @@
+.eduction{
+    margin: 50px 10px;
+    padding: 50px 30px;
+    margin-left: 130px;
+    background-color: rgba(128, 128, 128, 0.274);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.eduction hr{
+    width: 400px;
+    margin: 10px auto;
+    border: 2px solid #138781;
+}
+.eduction h2{
+    color: #138781;
+    font-family: cursive;
+    font-weight: bold;
+}
+.eduction .vertical-timeline-element-title{
+    color: #138781;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+@media (max-width:600px){
+    .eduction{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .eduction hr{
+        width: 260px;
+    }
+}
